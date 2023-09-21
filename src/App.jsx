@@ -7,8 +7,10 @@ function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
+      <div className='text-center'>
+      <h2 className='text-2xl pb-5 font-semibold'>Form Master</h2>
       <SimpleForm></SimpleForm>
+      </div>
     </>
   )
 }

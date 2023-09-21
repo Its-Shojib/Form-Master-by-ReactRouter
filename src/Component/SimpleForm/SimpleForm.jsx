@@ -7,9 +7,9 @@ const SimpleForm = () => {
         console.log('form Submitted');
     }
     return (
-        <div>
+        <div className="text-2xl space-y-3 bg-gray-300">
             <form onSubmit={handleSubmit}>
-                <input type="text" name="name" id="" placeholder="input name" />
+                <input className=" border-red-200" type="text" name="name" id="" placeholder="input name" />
                 <br />
                 <input type="email" name="email" id="" placeholder="input email"/>
                 <br />
