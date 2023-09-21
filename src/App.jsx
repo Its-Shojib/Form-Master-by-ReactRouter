@@ -1,7 +1,8 @@
 
 
 // import StatefulForm from './Component/StateFullForm/StatefulForm';
-import RefForm from './Component/RefForm/RefForm';
+// import RefForm from './Component/RefForm/RefForm';
+import HookForm from './Component/HookForm/HookForm';
 
 function App() {
 
@@ -12,7 +13,8 @@ function App() {
       <h2 className='text-3xl pb-5 font-bold'>Form Master</h2>
       {/* <SimpleForm></SimpleForm> */}
       {/* <StatefulForm></StatefulForm> */}
-      <RefForm></RefForm>
+      {/* <RefForm></RefForm> */}
+      <HookForm></HookForm>
       </div>
     </div>
   )
